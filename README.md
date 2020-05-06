@@ -2,7 +2,7 @@
 
 Dynamic web applications are more interesting than static websites for one reason: **user input.** Let's finally learn how to let our users give us input!
 
-### [Here is the target we will ultimately build.](https://omnicalc-params.herokuapp.com/)
+### [Here is the target we will ultimately build.](https://omnicalc-params.matchthetarget.com/)
 
 ## Setup
 
@@ -30,7 +30,7 @@ The way it should work is:
  - If I visit the ROUTE `/random/new`, I should see a form with labels and inputs to enter two numbers, a minimum and a maximum.
     - If I submit that form, I should see a random number that falls between the numbers that I entered.
 
-Play around and try various inputs in [the target](http://omnicalc-params.herokuapp.com/) to see examples of how each form should behave.
+Play around and try various inputs in [the target](http://omnicalc-params.matchthetarget.com/) to see examples of how each form should behave.
 
 ### Valid, accessible forms
 
