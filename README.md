@@ -69,3 +69,16 @@ An example of a valid form; in particular, notice the `id=""` and `for=""` attri
   </button>
 </form>
 ```
+
+#### Additional Hints
+
+Rails pre-defines some helper methods that we can use inside View templates (the `.html.erb` files) that help us easily format the data we want to display.
+
+In particular these two:
+
+- [`number_to_currency()`](https://apidock.com/rails/ActionView/Helpers/NumberHelper/number_to_currency)
+- [`number_to_percentage()`](https://apidock.com/rails/ActionView/Helpers/NumberHelper/number_to_percentage)
+
+could be useful when formating the output of the payment form.
+
+Click on them to read the documentation for the methods to learn more.
