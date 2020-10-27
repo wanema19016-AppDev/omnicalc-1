@@ -27,6 +27,9 @@ The way it should work is:
     - The present value.
     - If I submit that form, I should see the **monthly** payment due given the values that I entered.
     - Mind your units! Use the formula located in the file `payment_formula.gif` in the same folder as this README.
+    - Hint 1: `r` in the formula is a percentage per period.  To get this number, we have to divide the number entered by 100 to get the percentage, then divide by 12 to get the rate per period.
+    - Hint 2: The number of periods, `n` is years divided by 12. 
+    - Hint 3: Create a variable for the numerator and another one for the denominator.  If they are instance variables, you can view them within your view page. If your output does not match the target, having done this will make debugging much more manageable.
 
         ![Payment formula](payment_formula.gif)
  - If I visit the ROUTE `/random/new`, I should see a form with labels and inputs to enter two numbers, a minimum and a maximum.
