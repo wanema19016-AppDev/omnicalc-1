@@ -26,8 +26,8 @@ The way it should work is:
     - The number of _years_ remaining.
     - The present value.
     - If I submit that form, I should see the **monthly** payment due given the values that I entered.
-    - Mind your units! Use the formula located in the file `payment_formula.gif` in the same folder as this README.
-    - Hint 1: The number of periods, `n`, is years multiplied by 12.
+    - Mind your units! Use the formula located in the file `payment_formula.gif` Hintin the same folder as this README.
+    - Hint 1: The number of periods, `n`, that we receive from the user is in years. Since we're calculating monthly payment we multiply it by 12.
     - Hint 2: `apr` comes in as a string. We should turn it into a float and divide the number by 100 to get the percentage.
     - Hint 3: `r` in the formula is a percentage per period.  One period is equal to one month.  The `apr` we receive from the user is yearly.
     - Hint 4: Create a variable for the numerator and another one for the denominator.  If they are instance variables, you can view them within your view page. If your output does not match the target, having done this  will make debugging much more manageable.
