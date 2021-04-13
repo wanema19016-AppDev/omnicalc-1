@@ -288,7 +288,7 @@ describe "/payment/new" do
 end
 
 describe "/payment/new" do
-  it "formats large dollar amounts on the results page", points: 2, hint: h("number_to_currency") do
+  it "formats large dollar amounts on the results page", points: 2, hint: h("to_s_currency") do
     visit "/payment/new"
 
     fill_in "APR", with: 4.10
@@ -318,7 +318,7 @@ describe "/payment/new" do
 end
 
 describe "/payment/new" do
-  it "formats the rate as a percentage on the results page", points: 1, hint: h("number_to_percentage") do
+  it "formats the rate as a percentage on the results page", points: 1, hint: h("to_s_percentage") do
     visit "/payment/new"
 
     fill_in "APR", with: 4.12345
