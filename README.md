@@ -76,12 +76,12 @@ An example of a valid form; in particular, notice the `id=""` and `for=""` attri
 
 #### Additional Hints
 
-Rails pre-defines some helper methods that we can use inside View templates (the `.html.erb` files) that help us easily format the data we want to display.
+The `to_s` method can format Floats [in more specific ways](https://chapters.firstdraft.com/chapters/853) that help us easily display data in a variety of ways.
 
 In particular these two:
 
-- [`number_to_currency()`](https://apidock.com/rails/ActionView/Helpers/NumberHelper/number_to_currency)
-- [`number_to_percentage()`](https://apidock.com/rails/ActionView/Helpers/NumberHelper/number_to_percentage)
+- [`.to_s(:currency) `](https://chapters.firstdraft.com/chapters/853#currency)
+- [`.to_s(:percentage) `](https://chapters.firstdraft.com/chapters/853#percentage)
 
 could be useful when formating the output of the payment form.
 
